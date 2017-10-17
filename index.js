@@ -1,14 +1,16 @@
 // Import a library to help create a component
 import React from 'react';
 // import destructuring
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/header'
 
 // Create a component
 const App = () => (
 	// jsx: like html, but is part of js.
 	// Just a mask over normal function calls. 
 	// Try it out at babeljs.io
-	<Text>Some text</Text>
+	// Component nesting
+	<Header />
 	);
 
 
