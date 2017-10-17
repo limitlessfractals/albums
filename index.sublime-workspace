@@ -1,0 +1,240 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 329.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"setti",
+				"Preferences: Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pand",
+				"Pandoc: Convert a Pandoc file to PDF"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ikkyu/Documents/ReactNative/albums/.eslintrc",
+		"/Users/ikkyu/Dropbox/How to get Wistia video.md",
+		"/Users/ikkyu/Documents/Will-to-Abstraction/Principles/My Principles.md",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/business ideas.txt",
+		"/Users/ikkyu/Documents/Will-to-Abstraction/Cryptocurrency/Crypto Trading.txt",
+		"/Users/ikkyu/Documents/Will-to-Abstraction/Principles/Principles Template.txt",
+		"/Users/ikkyu/Documents/Will-to-Abstraction/Principles/My Principles.txt",
+		"/Users/ikkyu/Dropbox/Consulting/Cali Commons July 2017/First meeting goal setting.mdown",
+		"/Users/ikkyu/Dropbox/Consulting/Cali Commons July 2017/questionnaire.txt",
+		"/Users/ikkyu/Dropbox/Consulting/Sulpulse June 2017/Entrepreneurship in Japan.txt",
+		"/Users/ikkyu/Dropbox/Consulting/Cali Commons July 2017/week 1.txt",
+		"/Users/ikkyu/Documents/Will-to-Abstraction/Seldon Fund.txt",
+		"/Users/ikkyu/Dropbox/my documents/Lust at Dawn",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/Economics of Time and Desire.txt",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/Heidegger Metaphysics with Sadler.txt",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/Aztec Sacrifices.txt",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/Freud on War and Death.txt",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/barbarian existentialism.txt",
+		"/Users/ikkyu/Dropbox/my documents/bootstrap4 navbar.html",
+		"/Users/ikkyu/Downloads/Imperial/index.html",
+		"/Users/ikkyu/Dropbox/my documents/bootstrap4 table form.html",
+		"/Users/ikkyu/Dropbox/my documents/meaningness comment1",
+		"/Users/ikkyu/Dropbox/Consulting/Sulpulse June 2017/Consult Sunpulse.txt",
+		"/Users/ikkyu/Dropbox/Consulting/Sulpulse June 2017/Notes on Sunpulse.txt",
+		"/Users/ikkyu/Dropbox/Consulting/Sulpulse June 2017/Letter to Luke 7-6-17.txt",
+		"/Users/ikkyu/Dropbox/Consulting/Sulpulse June 2017/Sunpulse consulting preliminary notes.txt",
+		"/Users/ikkyu/Dropbox/Consulting/Sulpulse June 2017/Call 1 with Luke.txt",
+		"/Users/ikkyu/Dropbox/Consulting/Sulpulse June 2017/Sunpulse report outline.txt",
+		"/Users/ikkyu/Dropbox/dao ke dao ikkyu",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/Startup Founder as Victim and God.txt",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/mimetic books.txt",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/main concepts.txt",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/Consult Sunpulse.txt",
+		"/Users/ikkyu/Dropbox/Apps/Plain.txt/The Buddhism and Yoga of a Super Fascist",
+		"/Users/ikkyu/Dropbox/my documents/What my project is?",
+		"/Users/ikkyu/Dropbox/my documents/Trolls as Antifragile Heroes notes",
+		"/Users/ikkyu/Dropbox/my documents/Email to Tom Kerr",
+		"/Users/ikkyu/.bash_profile"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 31.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
