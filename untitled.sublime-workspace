@@ -3,15 +3,35 @@
 	{
 		"selected_items":
 		[
+			[
+				"App",
+				"AppRegistry"
+			],
+			[
+				"React",
+				"ReactNative"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"contents": "// Import a library to help create a component\nimport React from 'react';\n// import destructuring\nimport { Text, AppRegistry } from 'react-native';\n\n// Create a component\nconst App = () => (\n\t// jsx: like html, but is part of js.\n\t// Just a mask over normal function calls. \n\t// Try it out at babeljs.io\n\t<Text>Some text</Text>\n\t);\n\n\n// Render it to the device\nAppRegistry.registerComponent('albums', () => App);\n\n",
 			"file": "index.js",
+			"file_size": 414,
+			"file_write_time": 131527442480000000,
 			"settings":
 			{
-				"buffer_size": 122,
+				"buffer_size": 414,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ikkyu/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+			"settings":
+			{
+				"buffer_size": 6040,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -24,10 +44,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 329.0,
-		"last_filter": "instal",
+		"height": 392.0,
+		"last_filter": "pretti",
 		"selected_items":
 		[
+			[
+				"pretti",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -61,7 +85,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 444.0
+		"width": 428.0
 	},
 	"console":
 	{
@@ -81,6 +105,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/ikkyu/Documents/ReactNative/albums"
+	],
 	"file_history":
 	[
 		"/Users/ikkyu/Documents/ReactNative/albums/.eslintrc",
@@ -138,6 +166,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"js",
+			"allow"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -155,7 +185,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -164,23 +194,54 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 122,
+						"buffer_size": 414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								122,
-								122
+								327,
+								327
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/ikkyu/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2855,
+								2855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1911.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -269,8 +330,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_visible": false,
+	"side_bar_width": 217.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
