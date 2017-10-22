@@ -10,7 +10,8 @@ const App = () => (
 	// Just a mask over normal function calls. 
 	// Try it out at babeljs.io
 	// Component nesting
-	<Header />
+	// Passing props allow components to be reconfigured on the fly
+	<Header headerText={'Albums'} />
 	);
 
 
