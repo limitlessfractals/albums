@@ -14,11 +14,12 @@ const App = () => (
 	// Passing props allow 
 	// components to be reconfigured on the fly
 	// use View tag for wrapping multiple components
+	
 	<View>
 		<Header headerText={'Albums'} />
 		<AlbumList />
 	</View>
-	);
+);
 
 
 // Render it to the device
