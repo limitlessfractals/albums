@@ -2,7 +2,7 @@
 import React from 'react';
 // import destructuring
 import { AppRegistry } from 'react-native';
-import Header from './src/components/header'
+import Header from './src/components/header';
 
 // Create a component
 const App = () => (
@@ -10,7 +10,7 @@ const App = () => (
 	// Just a mask over normal function calls. 
 	// Try it out at babeljs.io
 	// Component nesting
-	<Header />
+	<Header headerText={'Albums'} />
 	);
 
 
