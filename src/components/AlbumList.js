@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 import axios from 'axios';
@@ -16,3 +17,18 @@ class AlbumList extends Component {
 }
 
 export default AlbumList;
+||||||| merged common ancestors
+=======
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const AlbumList = () => {
+   return (
+      <View>
+         <Text>Album List!!</Text>
+      </View>
+   );
+};
+
+export default AlbumList;
+>>>>>>> textStyle-debug
