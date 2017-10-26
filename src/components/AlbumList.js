@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import axios from 'axios';
+import AlbumDetail from './AlbumDetail';
 
 class AlbumList extends Component {
    // init empty array as component level state
@@ -12,7 +13,8 @@ class AlbumList extends Component {
    }
 
    renderAlbums() {
-      return this.state.albums.map(album => <Text>{album.title}</Text>);
+      // ideally key should be ID
+      return this.state.albums.map(album => <AlbumDetail key={album.title} album={album} />);
    }
 
    render() {
