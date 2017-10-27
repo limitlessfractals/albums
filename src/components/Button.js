@@ -4,11 +4,14 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-const Button = () => {
+// make prop onPress to make button reusable
+const Button = ({ onPress }) => {
    const { buttonStyle, textStyle } = styles;
 
+   // 
    return (
-      <TouchableOpacity style={buttonStyle}>
+      // this onPress is part of TouchableOpacity
+      <TouchableOpacity onPress={onPress} style={buttonStyle}>
          <Text style={textStyle}>
             Click Me!
          </Text>

@@ -36,9 +36,11 @@ const AlbumDetail = ({ album }) => {
                source={{ uri: image }} 
             /> 
          </CardSection>
-         
+
          <CardSection>
-            <Button />
+            {//this onPress is arbitrarily named function
+            }
+            <Button onPress={() => console.log(title)} />
          </CardSection>
       </Card>
    );
