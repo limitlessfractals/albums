@@ -11,7 +11,8 @@ const App = () => (
 	// Just a mask over normal function calls. 
 	// Try it out at babeljs.io
 	// Component nesting
-	<View>
+	// flex: 1 for ScrollView
+	<View style={{ flex: 1 }}>
 		<Header headerText={'Albums'} />
 		<AlbumList />
 	</View>
