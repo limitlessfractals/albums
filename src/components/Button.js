@@ -5,7 +5,7 @@ import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
 // make prop onPress to make button reusable
-const Button = ({ onPress }) => {
+const Button = ({ onPress, children }) => {
    const { buttonStyle, textStyle } = styles;
 
    // 
@@ -13,7 +13,7 @@ const Button = ({ onPress }) => {
       // this onPress is part of TouchableOpacity
       <TouchableOpacity onPress={onPress} style={buttonStyle}>
          <Text style={textStyle}>
-            Click Me!
+            {children}
          </Text>
       </TouchableOpacity>
    );

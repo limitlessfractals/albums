@@ -40,7 +40,9 @@ const AlbumDetail = ({ album }) => {
          <CardSection>
             {//this onPress is arbitrarily named function
             }
-            <Button onPress={() => Linking.openURL(url)} />
+            <Button onPress={() => Linking.openURL(url)}>
+               Buy Now
+            </Button>
          </CardSection>
       </Card>
    );
